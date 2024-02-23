@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Logo from "../assets/img/img.png";
 
 const loggedInUser = () => {
     // API call to check authentication
@@ -9,7 +10,7 @@ const Title = () => (
     <a href="/">
         <img 
             className="logo"
-            src="https://lh3.googleusercontent.com/p/AF1QipO_6cTc3QdC9L2vAOyCkUPG-G-9YeFxo3YiDu3R=w1080-h608-p-no-v0"
+            src={Logo}
             alt="logo"/>
     </a>
 );

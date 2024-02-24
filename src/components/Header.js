@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Logo from "../assets/img/img.png";
+import { Link } from "react-router-dom";
 
 const loggedInUser = () => {
     // API call to check authentication
@@ -24,10 +25,26 @@ const Header = () => {
             <Title />
             <div className="nav-items">
                 <ul>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Contact</li>
-                    <li>Cart</li>
+                    <li>
+                        <Link to="/">
+                            Home
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/about">
+                            About Us
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/contact">
+                            Contact
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/cart">
+                            Cart
+                        </Link>
+                    </li>
                 </ul>
             </div>
             {

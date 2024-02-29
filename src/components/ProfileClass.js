@@ -6,10 +6,16 @@ class Profile extends React.Component {
         this.state = {
             count: 0,
         };
+        console.log(this.props.name + " - constructor");
+    };
+
+    componentDidMount() {
+        console.log(this.props.name + " - componentDidMount");
     }
 
     render() {
         const { count } = this.state;
+        console.log(this.props.name + " - render");
         return (
             <div>
                 <h1>Profile Class Component</h1>

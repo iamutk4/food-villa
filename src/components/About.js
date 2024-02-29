@@ -35,7 +35,6 @@ class About extends React.Component {
                     This is Namaste React Live Course Chapter 07 - Finding the Path
                 </p>
                 <ProfileCC name={"First Child"}/>
-                <ProfileCC name={"Second Child"}/>
             </div>
         );
     };

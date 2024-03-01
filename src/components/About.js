@@ -32,9 +32,9 @@ class About extends React.Component {
             <div>
                 <h1>About Us Page</h1>
                 <p>
-                    This is Namaste React Live Course Chapter 07 - Finding the Path
+                    This is part of a React course
                 </p>
-                <ProfileCC name={"First Child"}/>
+                <ProfileFC name={"First Child"}/>
             </div>
         );
     };
